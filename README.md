@@ -45,6 +45,9 @@ git remote add origin ssh://git@IP/repo.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
+
+git fetch 
+git pull   拉取更新的repo
 ```
 
 ![Image text](https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/newRepo.PNG)
