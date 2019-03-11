@@ -16,7 +16,7 @@ https://hyperledger.github.io/composer/latest/tutorials/playground-tutorial.html
 这个在线网站 需要ss 系统代理全局模式 才能正常显示（需要翻墙）
 https://composer-playground.mybluemix.net/
 
-![../pic/samples.PNG]
+![Image text]https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/samples.PNG
 
 如果没有看到 samples on npm 就 多刷新几次
 这些 samples 代码的github链接：
