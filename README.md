@@ -27,15 +27,17 @@ https://github.com/hyperledger/composer-sample-networks/tree/master/packages
 
 https://github.com/hyperledger/composer-sample-networks/blob/master/packages/basic-sample-network/models/sample.cto
 
-### 3.学习一下 .md 文件怎么写 和 github怎么使用
+### 3.学习一下 .md 文件怎么写 和 github基本使用方式
 
-1. 一种是clone到本地进行操作 （谷歌大法）
+1. 一种是clone到本地进行操作 （谷歌大法，或者好像直接在网页端新建一个repo就会有相应的教程）
 
-git clone
+git init
+git remote add origin ssh://git@IP/repo.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
 
-git add
 
-git push
 
  2.一种是直接在网站上 上传、编辑文件
 
