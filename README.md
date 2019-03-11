@@ -16,7 +16,7 @@ https://hyperledger.github.io/composer/latest/tutorials/playground-tutorial.html
 这个在线网站 需要ss 系统代理全局模式 才能正常显示（需要翻墙）
 https://composer-playground.mybluemix.net/
 
-![Image text] https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/samples.PNG
+![Image text](https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/samples.PNG)
 
 
 如果没有看到 samples on npm 就 多刷新几次
@@ -31,6 +31,7 @@ https://github.com/hyperledger/composer-sample-networks/blob/master/packages/bas
 ### 3.学习一下 .md 文件怎么写 和 github基本使用方式
 
 1. 一种是clone到本地进行操作 （谷歌大法，或者好像直接在网页端新建一个repo就会有相应的教程）
+![Image text](https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/newRepo.PNG)
 
 git init
 git remote add origin ssh://git@IP/repo.git
