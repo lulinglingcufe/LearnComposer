@@ -2,6 +2,7 @@
 
 
 https://hyperledger.github.io/composer/latest/installing/installing-prereqs
+
 编辑器有高亮，导入composer 合约的代码 后可以更方便地学习Composer智能合约的语法
 
 ### 1.VSCode 然后安装composer代码高亮的插件
@@ -11,9 +12,11 @@ install the Hyperledger Composer Extension for VSCode
 ### 2.初学者学习 composer 合约 的方式：
 
 https://hyperledger.github.io/composer/latest/tutorials/playground-tutorial.html
+
 通过在线的合约playground 以及教程，学习合约的编写和部署操作。
 
 这个在线网站 需要ss 系统代理全局模式 才能正常显示（需要翻墙）
+
 https://composer-playground.mybluemix.net/
 
 ![Image text](https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/samples.PNG)
