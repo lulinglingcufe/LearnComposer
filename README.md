@@ -1,63 +1,30 @@
-#  Hyperledger  Composer 入门
+#  Learn Composer smart contract language
 
+### 1. Install the Hyperledger Composer Extension for VSCode
 
-https://hyperledger.github.io/composer/latest/installing/installing-prereqs
+The chaincode is highlighted in the **VSCode**, thus convenient for modifying and learning.
+Follow the instructions here, [Install the Hyperledger Composer Extension for VSCode](https://hyperledger.github.io/composer/latest/installing/installing-prereqs)
 
-编辑器有高亮，导入composer 合约的代码 后可以更方便地学习Composer智能合约的语法
+##### When you import Composer chaincode folders into VSCode, you are able to read the chaincode easier.
 
-### 1.VSCode 然后安装composer代码高亮的插件
+### 2. For beginers to learn Composer contract
 
-install the Hyperledger Composer Extension for VSCode
+This [tutorial](https://hyperledger.github.io/composer/latest/tutorials/playground-tutorial.html) is intended to act as an introduction to Hyperledger Composer concepts using the [online playground environment](https://composer-playground.mybluemix.net/).
 
-### 2.初学者学习 composer 合约 的方式：
+In this step by step tutorial you'll walk through setting up a business network, defining the assets, participants and transactions, and testing the network by creating some participants and an asset, and submitting transactions to change the ownership of the asset from one to another.
 
-https://hyperledger.github.io/composer/latest/tutorials/playground-tutorial.html
-
-通过在线的合约playground 以及教程，学习合约的编写和部署操作。
-
-这个在线网站 需要ss 系统代理全局模式 才能正常显示（需要翻墙）
-
-https://composer-playground.mybluemix.net/
+- Note that, for Chinese users, you should solve the  *Internet access blocked* to visit the website [online playground environment](https://composer-playground.mybluemix.net/) successfully.  If  you can't see samples on npm,  refresh the page until you see them.
 
 ![Image text](https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/samples.PNG)
 
-
-如果没有看到 samples on npm 就 多刷新几次.
 ```
-这些 samples 代码的github链接：
+Here are the github repository URL of these samples：
 https://github.com/hyperledger/composer-sample-networks/tree/master/packages
 ```
 
-这个repository 下面有很多不同应用场景的 composer 合约的例子。在VSCode里面打开这些文件，可以在代码高亮的情况下，学习composer合约的写法。
-```
-以basic-sample-network为例子，sample.cto文件是composer 定义 合约主体模型的文件
-https://github.com/hyperledger/composer-sample-networks/blob/master/packages/basic-sample-network/models/sample.cto
-```
+There are many application scenarios in this repository. Open these folders in VSCode,  learn the Composer contract in highlighted code. 
 
+Folllow the README.md guidance in the folder of each application scenario, and practice them in the Composer playground to learn about the transaction workflow of Composer.
 
-
-### 3.学习一下 .md 文件怎么写 和 github基本使用方式
-
-1. 一种是clone到本地进行操作 （谷歌大法，或者好像直接在网页端新建一个repo就会有相应的教程）
-
-
-```
-git init
-git remote add origin ssh://git@IP/repo.git
-git add .
-git commit -m "Initial commit"
-git push -u origin master
-
-git fetch 
-git pull   拉取更新的repo
-```
-
-![Image text](https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/newRepo.PNG)
-
-
- 2.一种是直接在网站上 上传、编辑文件
-
-https://github.com/ZJU-INCAS/Reports/tree/master/%E9%80%9A%E8%BF%87github%20web%E9%A1%B5%E9%9D%A2%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E3%80%81%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87title
-
-3.可以自己找个例子操作一下
+Good luck!  : )
 
