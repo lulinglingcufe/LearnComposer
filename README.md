@@ -28,11 +28,13 @@ https://composer-playground.mybluemix.net/
 https://github.com/hyperledger/composer-sample-networks/tree/master/packages
 ```
 
-这个repository 下面有很多不同应用场景的 composer 合约的例子
+这个repository 下面有很多不同应用场景的 composer 合约的例子。在VSCode里面打开这些文件，可以在代码高亮的情况下，学习composer合约的写法。
 ```
 以basic-sample-network为例子，sample.cto文件是composer 定义 合约主体模型的文件
 https://github.com/hyperledger/composer-sample-networks/blob/master/packages/basic-sample-network/models/sample.cto
 ```
+
+
 
 ### 3.学习一下 .md 文件怎么写 和 github基本使用方式
 
@@ -45,6 +47,9 @@ git remote add origin ssh://git@IP/repo.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
+
+git fetch 
+git pull   拉取更新的repo
 ```
 
 ![Image text](https://github.com/lulinglingcufe/LearnComposer/blob/master/pic/newRepo.PNG)
